@@ -5,7 +5,6 @@ import NetflixClone from "../assets/netflixClone.png";
 import NotesApp from "../assets/notesApp.png";
 
 const Projects = () => {
-  console.log(typeofnull);
   return (
     <div className="pt-16 pb-10 sm:pt-16 lg:pb-16 md:h-[92vh]">
       <div className="px-7 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
