@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: rgb(1, 72, 113);
+  background: linear-gradient(
+    130deg,
+    rgb(1, 72, 113, 1) 0%,
+    rgba(198, 218, 208, 1) 100%
+  );
+  font-family: "Inter", sans-serif;
+}
+span,
+.active {
+  @apply bg-gradient-to-b from-sky-200 to-blue-300 bg-clip-text font-bold text-transparent;
+}
+
+.bg-primary-color {
+  @apply bg-gradient-to-br from-[#014871] to-[#c6dad0];
+}
+.active {
+  @apply font-bold;
+}
+.gray-primary-color {
+  @apply bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent;
+}
+
+h2 {
+  @apply text-xl md:text-4xl;
+}
+
+p {
+  @apply text-xl tracking-tight leading-relaxed;
+}
+
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.shiny-effect {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(circle, rgba(70, 161, 181, 0.2), transparent 70%);
+}
