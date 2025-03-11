@@ -9,9 +9,16 @@ const About = () => {
             <h2 className=" text-3xl font-bold leading-light gray-primary-color sm:text-4xl lg:text-5xl  ">
               Hello I'm Vimal Thasan
             </h2>
-            <p className=" max-w-lg mt-3 text-xl leading-relaxed text-gray-400 md:mt-8 ">
-              I'm a web developer who loves to create beautiful and functional
-              websites for people who want to make a difference in the world.
+            <p className=" max-w-screen mt-3 text-xl leading-relaxed text-gray-400 md:mt-8 ">
+              Hi, I’m Vimal Thasan, a passionate and versatile full-stack web
+              developer. With a strong foundation in the MERN stack (MongoDB,
+              Express.js, React.js, Node.js), I specialize in building
+              responsive, user-friendly websites and web applications. My
+              expertise includes front-end development using React.js and
+              Tailwind CSS, back-end development with Node.js and Express, and
+              working with databases like MongoDB. I enjoy creating innovative
+              solutions and am always eager to learn new technologies to improve
+              my skills and deliver exceptional results.
             </p>
           </div>
           <img

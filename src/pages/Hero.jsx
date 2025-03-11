@@ -8,10 +8,10 @@ const Hero = () => {
     <div className=" relative pt-16 pb-10 sm:p-16 lg:p-16 overflow-hidden h-[92vh] ">
       <div className="px-4 mx-auto max-w-7xl sm:p-6 lg:px-8 relative z-20 ">
         <div className="max-w-xl mx-auto text-center ">
-          <h1 className="text-4xl font-bold sm:text-6xl gray-rimary-color md:text-5xl text-center">
+          <h1 className="text-5xl font-bold sm:text-6xl gray-rimary-color md:text-7xl text-center">
             I will solve your Frontend
           </h1>
-          <p className="mt-5 text-base text-white sm:text-xl md:text-2xl ">
+          <p className="mt-5 text-base text-white sm:text-2xl md:text-3xl ">
             Do you need help in frontend development? Don't hesitate to contact
             me!
           </p>
