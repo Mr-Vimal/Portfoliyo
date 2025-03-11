@@ -8,10 +8,10 @@ const Hero = () => {
     <div className=" relative pt-16 pb-10 sm:p-16 lg:p-16 overflow-hidden h-[92vh] ">
       <div className="px-4 mx-auto max-w-7xl sm:p-6 lg:px-8 relative z-20 ">
         <div className="max-w-xl mx-auto text-center ">
-          <h1 className="text-4xl font-bold sm:text-6xl gray-rimary-color ">
+          <h1 className="text-4xl font-bold sm:text-6xl gray-rimary-color md:text-5xl text-center">
             I will solve your Frontend
           </h1>
-          <p className="mt-5 text-base text-white sm:text-xl ">
+          <p className="mt-5 text-base text-white sm:text-xl md:text-2xl ">
             Do you need help in frontend development? Don't hesitate to contact
             me!
           </p>
@@ -46,7 +46,7 @@ const Hero = () => {
               <AiFillGithub className="w-[70px] h-auto" />
             </a>
             <a
-              href=""
+              href="mailto:mrvimal0501@gmail.com?subject=Inquiry&body=Hello, I would like to connect."
               className=" transition-all duration-200 hover:scale-110 cursor-pointer "
             >
               <AiFillMail className="w-[70px] h-auto" />
